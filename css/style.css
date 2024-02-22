@@ -1,0 +1,45 @@
+@import url('components/avatar.css');
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url(components/footer.css);
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+.centered {
+    position: relative; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; 
+}
+
+.event-info {
+    text-align: center;
+    color: white;
+}
+
+.event-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event-info h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+

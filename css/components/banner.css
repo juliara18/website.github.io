@@ -1,0 +1,16 @@
+.banner {
+    position: relative;
+    height: 100%;
+}
+
+.blurry-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://medias.lequipe.fr/img-photo-jpg/penelope-leprevost-a-ete-en-difficulte-lors-de-la-coupe-des-nations-v-michel-l-equipe/1500000001501257/0:0,1995:1330-1200-800-75/ebefb.jpg); 
+    background-size: contain;
+    background-position: center;
+    filter: grayscale(100%) blur(5px); 
+}
